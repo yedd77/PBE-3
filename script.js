@@ -35,16 +35,16 @@ enter.addEventListener("click", () => {
 
         for(i=0; i <=totaldata; i++){
 
-            if (studentdata[i].marks <= 100 && studentdata[i].marks >= 90) {
+            if (studentdata[i].Marks <= 100 && studentdata[i].Marks >= 90) {
                 studentdata[i]['Grades'] = 'A';
 
-            }else if (studentdata[i].marks <= 89 && studentdata[i].marks >= 80) {
+            }else if (studentdata[i].Marks <= 89 && studentdata[i].Marks >= 80) {
                 studentdata[i]['Grades'] = 'B';
 
-            }else if (studentdata[i].marks <= 79 && studentdata[i].marks >= 70) {
+            }else if (studentdata[i].Marks <= 79 && studentdata[i].Marks >= 70) {
                 studentdata[i]['Grades'] = 'C';
                 
-            }else if (studentdata[i].marks <= 69 && studentdata[i].marks >= 60) {
+            }else if (studentdata[i].Marks <= 69 && studentdata[i].Marks >= 60) {
                 studentdata[i]['Grades'] = 'D';
                 
             } else{
