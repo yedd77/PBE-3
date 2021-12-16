@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: auto;
+    width: 100%;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.container{
+background-color: #f8f9fa;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: auto;
+  padding: 20px;
+  width: 50%;
+  margin: auto; 
+  margin-top: 50px ;
+  text-align: center;
+  
+}
+.container h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+.instru h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    font-weight: lighter;
+    padding-bottom: 10px; 
+    margin-top: 30px    ;
+}
+.instru p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    font-weight: lighter;
+}
+.instru b{
+    color : #CA5B84;
+}
+input{
+    width: 100px;
+    background-color: aliceblue;
+    padding-left: 5px;
+}
+
+#table {
+    display: table;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+    font-size: 16px;
+    border-spacing: 0;
+    
+}
+
+th{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+    background-color: #F5F0E9;
+    font-size: 16px;
+    border-spacing: 0;
+    
+}
+label{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn {
+    background-color: #CA5B84;
+    border: 1px solid #CA5B84;
+    padding-left: 50%;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    left: 67%;
+    margin-bottom: 30px;
+}
+.btn:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+}
