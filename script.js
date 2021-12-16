@@ -6,7 +6,7 @@ let studentdata = [];
 enter.addEventListener("click", () => {
 
     if (document.getElementById('name').value == "" || document.getElementById('mark').value =="" ){
-        alert("Please insert all the fill box");
+        alert("Please insert all the field");
         return false;
     }
 
